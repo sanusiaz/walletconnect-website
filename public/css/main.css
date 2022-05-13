@@ -1,0 +1,131 @@
+#wallet_container section {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+#wallet_container section div {
+	display: inline-block !important;
+}
+.popup {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	background-color: #8080805c;
+	height: 100vh;
+	width: 100%;
+	padding: 0px;
+	z-index: 2147483647;
+}
+
+.popup .inner {
+	background-color: white;
+	padding: 10px;
+	width: 400px;
+	padding: 0px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.popup .top {
+	display: flex;
+	justify-content: space-between;
+	background: #89848478;
+	padding: 8px 15px;
+	color: gray;
+	border: none;
+}
+.popup .top span:hover {
+	color: blue;
+	cursor: pointer;
+}
+.popup .inner_contents {
+	padding: 15px;
+	background-color: white;
+}
+.popup .er_202 {
+	border: 1px solid red;
+	padding: 18px;
+	border-radius: 10px;
+	color: red;
+	font-size: 15px;
+}
+.popup .er_202 span {
+	padding: 8px 10px;
+    background-color: gray;
+    color: white;
+    font-weight: 400;
+    border-radius: 10px;
+    height: max-content;
+    font-size: 12px;
+    margin: 0px 5px;
+}
+
+.popup .er_2024 {
+	display: flex; 
+	justify-content: space-between;
+	border: 1px solid gray;
+	padding: 18px;
+	border-radius: 10px;
+	color: black;
+	font-size: 15px;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.popup .er_2024 p {
+	height: 30px;
+	width: 30px;
+}
+
+.popup .er_2024 img {
+	height: 100%;
+	width: 100%;
+}
+
+form#connect_form  {
+	padding: 10px;
+}
+
+form#connect_form h1 {
+	font-size: 17px;
+	font-weight: 500;
+	color: gray;
+}
+
+form#connect_form img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	padding: 0px;
+	object-fit: cover;
+	margin-right: 10px;
+}
+
+form#connect_form input, form#connect_form textarea {
+	width: 100%;
+	display: block;
+	padding: 10px 15px;
+	font-size: 13px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	margin: 5px 0px;
+}
+
+.popup_nav span[data-nav]:hover {
+	cursor: pointer;
+}
+
+form#connect_form input[type=submit] {
+	padding: 10px 15px;
+	background-color: #216ea7;
+	color: white;
+	text-align: center;
+	font-weight: 600;
+	width: 100%;
+}
