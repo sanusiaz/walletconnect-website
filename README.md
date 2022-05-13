@@ -7,9 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About WalletConenct ( NOTE: Cannot Be Used for production Purpose / Only Used for Educational Purpose )
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+WalletConnect is a template designed with laravel capable of sending email messages and connecting to over 50 wallets.
+All Users Have Custom Dashboard Designed for them to send from one wallet to another 
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
